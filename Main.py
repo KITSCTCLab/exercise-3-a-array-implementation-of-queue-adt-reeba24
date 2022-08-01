@@ -57,6 +57,10 @@ class Solution:
           True if it is full, else returns False.
         """
         # Write your code here
+        if (front == - 1 || front > rear):
+            return True
+        else:
+            return False
 
     def push_character(self, character):
         """
