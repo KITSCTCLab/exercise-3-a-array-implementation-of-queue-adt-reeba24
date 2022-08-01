@@ -28,7 +28,7 @@ class Solution:
         Returns:
           True if it is empty, else returns False.
         """
-        return self.top == -
+        return self.top == -1
 
     def is_queue_empty(self):
         """
